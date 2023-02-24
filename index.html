@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		/* width */
+		::-webkit-scrollbar {
+		width: 10px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+		background: #f1f1f1; 
+		}
+	 
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		background: #888; 
+		}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+		background: #555; 
+		}
+	</style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pavels Atelier</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.0/css/all.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script>
+
+    $(document).ready(function(){
+        $(this).scrollTop(0);
+    });
+
+  </script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary position-fixed w-100">
+		<div class="container">
+			<a class="navbar-brand" href="a">
+				<strong>Pavels Atelier</strong>
+			</a>	
+			<button class="navbar-toggler" type="button" 
+			data-bs-toggle="collapse" 
+			data-bs-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" 
+			aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				
+			</button>
+			<div class="collapse navbar-collapse" 
+			id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 
+				justify-content-end">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page"
+						href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="products.html">Products</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			<div>
+		</div>
+	
+	</nav>
+	
+	
+	<header class="d-flex flex-column justify-content-center text-light">
+		<div class="container">
+			<div class="col-12 col-lg-6">
+				<h1>
+					<strong>Pavels Atelier</strong>
+				</h1>
+				<p class="py-4">Genuinely handmade leatherworking.
+				</p>
+				<button type="button" class="btn btn-outline-light btn-lg">
+					<strong>Portfolio</strong>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<section class="bg-light" id="about">
+		<div class="container">
+			<div class="row py-5">
+				<div class="d-block d-lg-flex">
+					<div class="about-content col-12 col-lg-6 d-flex
+					flex-column justify-content-center">
+						<h2 class=" mb-4 mb-md-5 fs-1">
+							<strong>About</strong>
+							<div class="border-top border-dark w-100 mx-auto my-3 pt-1"></div>
+						</h2>
+						<p>Nihil sine Deo!</p>
+						<p>High quality leather goods, made entirely by hand, which rise to the standard of even the most refin.
+						</p>
+						<p>Handmade does not mean machine sewing, stamping and mechanized cutting.
+Our products are truly unique, because no two identical things can be made, therefore, they may present some imperfections: precisely because they are made entirely by hand and not mechanized.
+In this sense, the Pavels Atelier logo will be inserted manually, with permanent ink, bringing more authenticity.
+						</p>
+					</div>
+					<div class="col-12 col-lg-6">
+						<img src="images/img-about2.jpg" class="img-fluid shadow" alt="">
+						
+					
+					</div>
+				
+				</div>
+			
+			</div>
+		</div>
+	
+	</section>
+	
+	<section class="bg-white text-dark" id="services">
+		<div class="container">
+			<div class="row py-5">
+				<h2 class="text-center mb-4 mb-md-5 fs-1">
+					<strong>Unique Style</strong>
+					<div class="border-top border-dark w-15 mx-auto my-3 pt-1"></div>
+				</h2>
+				<div class="d-block d-lg-flex py-5">
+					<div class="col-12 col-lg-6">
+						<img src="images/style1.jpg"
+						class="img-fluid shadow" alt="">
+					</div>
+					<div class="project-content-pl col-12 col-lg-6 d-flex flex-column justify-content-center">
+						<h3 class="mb-4 mt-4 mt-lg-0 text-center">
+							<strong>One of a kind design.</strong>
+						</h3>
+						<p class="text-center">Every item is unique and unrepeatable.</p>
+					</div>
+				</div>
+				
+				<div class="d-flex flex-column-reverse flex-lg-row py-5">
+					<div class="project-content-pl col-12 col-lg-6 d-flex flex-column justify-content-center">
+						<h3 class="mb-4 mt-4 mt-lg-0 text-center">
+							<strong>Expert handmade craftsmanship.</strong>
+						</h3>
+						<p class="text-center">No mechanized sewing, stamping or cutting.</p>
+					</div>
+					<div class="col-12 col-lg-6">
+						<img src="images/style2.jpg"
+						class="img-fluid shadow" alt="">
+					</div>
+				</div>
+				
+				<div class="d-block d-lg-flex py-5">
+					<div class="col-12 col-lg-6">
+						<img src="images/style3.jpg"
+						class="img-fluid shadow" alt="">
+					</div>
+					<div class="project-content-pl col-12 col-lg-6 d-flex flex-column justify-content-center">
+						<h3 class="mb-4 mt-4 mt-lg-0 text-center">
+							<strong>Originality and attention to detail.</strong>
+						</h3>
+						<p class="text-center">Each object is made with passion and creativity.</p>
+					</div>
+				</div>
+				
+				
+			</div>		
+		</div>	
+	</section>
+	
+	
+	
+	<section class="bg-light" id="products">
+		<div class="container">
+		<div class="row g-4 py-5">
+			<h2 class="text-center mb-4 mb-md-5 fs-1">
+				<strong>Products</strong>
+				<div class="border-top border-dark w-15 mx-auto my-3 pt-1"></div>
+			</h2>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Lady Bags</strong>
+						
+						</h5>
+						<img src="images/lady-bags.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade handbags.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Wallets For Ladies</strong>
+						
+						</h5>
+						<img src="images/wallets-for-ladies.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade wallets for ladies.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Wallets For Men</strong>
+						
+						</h5>
+						<img src="images/wallets-for-men.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade wallets for men.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Belts</strong>
+						
+						</h5>
+						<img src="images/belts.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather belts.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Bracelets</strong>
+						
+						</h5>
+						<img src="images/bracelets.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather bracelets.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Book Marks</strong>
+						
+						</h5>
+						<img src="images/book-marks.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather book marks.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Sleeves</strong>
+						
+						</h5>
+						<img src="images/sleeves.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather sleeves.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Phone Covers</strong>
+						
+						</h5>
+						<img src="images/phone-covers.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather phone covers.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Envelopes</strong>
+						
+						</h5>
+						<img src="images/envelopes.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather envelopes.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Card Holders</strong>
+						
+						</h5>
+						<img src="images/card-holders.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather card holders.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Glasses Cases</strong>
+						
+						</h5>
+						<img src="images/glasses-cases.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather glasses cases.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Key Fobs</strong>
+						
+						</h5>
+						<img src="images/key-fobs.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather key fobs.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Pen Cases</strong>
+						
+						</h5>
+						<img src="images/pen-cases.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather pen cases.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Charms</strong>
+						
+						</h5>
+						<img src="images/charms.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather charms.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow p-4">
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							<strong>Board Games</strong>
+						
+						</h5>
+						<img src="images/board-games.jpg" class="img-fluid shadow" alt="">
+						<p class="card-text text-center my-4">Handmade leather board games.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#products" class="btn btn-outline-dark btn-lg shadow">View More</a>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+	</section>
+	
+	<section class="contact text-light" id="contact">
+		<div class="container py-5">
+			<h2 class="text-center mb-4 mb-md-5 fs-1">
+				<strong>Contact</strong>
+				<div class="border-top border-light w-100 mx-auto my-3 pt-1"></div>
+			</h2>
+			
+			<div class="footer-text row">
+				<div class="col-12 col-lg-6 d-flex flex-column
+				justify-content-center py-5">
+					<p class="fs-5">
+						<strong>Location:</strong> Massa, Italy
+					</p>
+					<p class="fs-5">
+						<strong>Email:</strong> pavel.atelier@gmail.com
+					</p>
+					<p class="fs-5">
+						<strong>Phone Number:</strong> 353 368 0113 
+					</p>
+					<p class="fs-5">
+						<strong>Socials:</strong>
+						<!---- <button class="button-social btn btn-outline-light btn-lg shadow" type="button">
+							<i class="fa-brands fa-instagram"></i>
+						</button> ---->
+						<a href="https://www.facebook.com/PavelsAtelier" target="_blannk">	
+							<button class="button-social btn btn-outline-light" type="button">
+								<span> <i class="fa-brands fa-facebook"></i></span> <span></span>
+							</button>
+						</a>
+						<a href="https://www.instagram.com/pavels_atelier" target="_blannk">	
+							<button class="button-social btn btn-outline-light" type="button">
+								<span><i class="fa-brands fa-instagram"></i></span> <span></span>
+							</button>
+						</a>
+						<a href="https://www.youtube.com/@pavelatelier" target="_blannk">	
+							<button class="button-social btn btn-outline-light" type="button">
+								<span><i class="fa-brands fa-youtube"></i></span> <span></span>
+							</button>
+						</a>			
+					</p>
+				</div>
+			</div>
+		</div>		
+	</section>
+	
+	<div class="socket text-dark text-center py-3">
+		<p>&copy; <a href="#" target="" class="text-dark">Pavels Atelier</a></p>
+	</div>
+
+	
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	
+
+
+
+</body>
+</html>

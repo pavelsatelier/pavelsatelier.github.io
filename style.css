@@ -1,0 +1,58 @@
+body {
+	font-family: 'Poppins', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	background: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.2), 
+	rgba(0,0,0,0)), url(images/bg.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-position: top;
+}
+ header h1 {
+	 font-size: 100px;
+ }
+header p {
+	font-size:20px;
+}
+
+header .btn {
+	font-family: 'Poppins', sans-serif;
+}
+
+.products-section-products {
+	margin-top: 50px;
+}
+
+.nav-item {
+	font-size: 20px;
+}
+.about-content {
+	padding-right:100px;
+}
+.card .btn {
+	font-family: 'Poppins', sans-serif;
+}
+.project-content-pl {
+	padding-left: 0px;
+}
+.contact {
+	background-color: #1B4156;
+}
+.button-social{
+	margin-left:20px;
+	font-size:1.3rem;
+}
+.footer-text {
+	font-family: 'Poppins', sans-serif;
+}
+@media only screen and (max-width:992px) {
+		
+		.project-content-pl {
+			margin-top: 20px;
+		}
+}
